@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Order placed successfully at SBC Premium Store. Download your invoice receipt and track shipping status.">
+  <title>Order Confirmed - SBC Premium Store</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="header-top-bar no-print">
+    <div class="container py-1">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <div class="d-flex align-items-center gap-3 flex-wrap justify-content-center justify-content-md-start">
+          <div
+            class="border rounded p-1 bg-white d-flex align-items-center justify-content-center shadow-sm logo-wrapper-custom d-none">
+            <img src="images/logo.webp" alt="SBC Logo" class="img-fluid logo-img-custom">
+          </div>
+          <div class="text-center text-md-start">
+            <p class="h5 fw-bold mb-0 text-dark header-title-custom">Shreeji Business Corporation</p>
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-start gap-2 text-muted mt-1 header-subtitle-custom">
+              <span><i class="bi bi-geo-alt-fill text-danger me-1"></i>Nehru Place, New Delhi, Delhi</span>
+              <span class="d-none d-sm-inline">|</span>
+              <span><i class="bi bi-check-circle-fill text-success me-1"></i>GST No. 07AJRPC7613B1ZG</span>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex align-items-center gap-2 flex-wrap justify-content-center justify-content-md-end">
+          <div class="trustseal-container d-flex align-items-center gap-2">
+            <div class="trustseal-seal">
+              <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="16" cy="16" r="14" fill="#0aafb7" stroke="#1f7264" stroke-width="1.5" />
+                <circle cx="16" cy="16" r="11" fill="none" stroke="rgba(255,255,255,0.4)" stroke-dasharray="2 1.5" />
+                <path d="M11 16L14.5 19.5L21 12.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="trustseal-text-group d-flex flex-column text-start">
+              <span class="trustseal-title">TRUST SEAL</span>
+              <span class="trustseal-sub">indiamart verified</span>
+            </div>
+          </div>
+          <a href="tel:08047657312" class="btn-top-call text-center px-3 py-1">
+            <strong><i class="bi bi-telephone-fill me-1"></i>08047657312</strong>
+            <small class="btn-top-call-small">87% Response Rate</small>
+          </a>
+          <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#globalQuoteModal"
+            class="btn-top-email px-3 py-2">
+            <i class="bi bi-envelope-fill"></i> Send Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="header-glass navbar py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <button class="btn btn-link text-dark d-md-none p-0 me-3 no-shadow-custom" type="button"
+          data-bs-toggle="offcanvas" data-bs-target="#mobile-navigation-drawer" aria-label="Toggle Navigation">
+          <i class="bi bi-list fs-1-6-custom"></i>
+        </button>
+        <a class="navbar-brand d-flex align-items-center m-0 p-0" href="index.html">
+          <img src="images/logo.webp" alt="SBC Logo">
+        </a>
+      </div>
+      <div class="d-none d-md-flex gap-4">
+        <a class="nav-link" href="index.html">Home</a>
+                        <div class="dropdown">
+          <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu shadow border-0 user-dropdown-menu-custom">
+            <li><a class="dropdown-item py-2" href="product-toner.html"><i
+                  class="bi bi-printer-fill me-2 text-muted"></i> Toner Cartridge</a></li>
+            <li><a class="dropdown-item py-2" href="product-megger-bm5500.html"><i
+                  class="bi bi-lightning-charge-fill me-2 text-muted"></i> Electrical Testing</a></li>
+            <li><a class="dropdown-item py-2" href="product-dm140i.html"><i
+                  class="bi bi-file-earmark-binary-fill me-2 text-muted"></i> Franking Machine &amp; Tax Meter</a></li>
+            <li><a class="dropdown-item py-2" href="product-megger-mit410.html"><i
+                  class="bi bi-activity me-2 text-muted"></i> Insulation Tester</a></li>
+            <li><a class="dropdown-item py-2" href="product-testo-625.html"><i
+                  class="bi bi-thermometer-half me-2 text-muted"></i> Thermo Hygrometer</a></li>
+            <li><a class="dropdown-item py-2" href="product-ups.html"><i class="bi bi-cpu-fill me-2 text-muted"></i>
+                UPS</a></li>
+          </ul>
+        </div>
+        <a class="nav-link" href="about.html">About Us</a>
+        <a class="nav-link" href="contact.html">Contact Us</a>
+
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <a href="wishlist.html" class="nav-link position-relative px-2">
+          <i class="bi bi-heart fs-1-3-custom"></i>
+          <span class="badge-count" id="wishlist-counter">1</span>
+        </a>
+        <a href="cart.html" class="nav-link position-relative px-2">
+          <i class="bi bi-bag fs-1-3-custom"></i>
+          <span class="badge-count" id="cart-counter">2</span>
+        </a>
+        <div class="dropdown">
+          <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle fs-1-3-custom"></i>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end shadow border-0 user-dropdown-menu-custom">
+            <li>
+              <h6 class="dropdown-header">Vivaan Singh</h6>
+            </li>
+            <li><a class="dropdown-item py-2" href="my-orders.html"><i class="bi bi-box-seam me-2 text-muted"></i> My
+                Orders</a></li>
+            <li><a class="dropdown-item py-2" href="order-tracking.html"><i class="bi bi-geo-alt me-2 text-muted"></i>
+                Track Order</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item py-2 text-danger" href="index.html"><i class="bi bi-box-arrow-right me-2"></i>
+                Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+   <div class="offcanvas offcanvas-start mobile-drawer-custom" tabindex="-1" id="mobile-navigation-drawer">
+    <div class="offcanvas-header border-bottom py-3">
+      <a class="navbar-brand d-flex align-items-center m-0 p-0" href="index.html">
+        <img src="images/logo.webp" alt="SBC Logo">
+      </a>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body p-0">
+      <div class="list-group list-group-flush">
+        <a href="index.html"
+          class="list-group-item list-group-item-action py-3 active text-white list-group-item-active-custom"><i
+            class="bi bi-house-door me-2"></i> Home</a>
+                        <a href="#mobile-products-collapse" class="list-group-item list-group-item-action py-3 d-flex justify-content-between align-items-center" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="mobile-products-collapse">
+          <span><i class="bi bi-grid me-2"></i> Products</span>
+          <i class="bi bi-chevron-down small"></i>
+        </a>
+        <div class="collapse bg-light-custom" id="mobile-products-collapse">
+          <div class="list-group list-group-flush ps-3">
+            <a href="product-toner.html" class="list-group-item list-group-item-action py-2 small"><i class="bi bi-printer-fill me-2 text-muted"></i> Toner Cartridge</a>
+            <a href="product-megger-bm5500.html" class="list-group-item list-group-item-action py-2 small"><i class="bi bi-lightning-charge-fill me-2 text-muted"></i> Electrical Testing</a>
+            <a href="product-dm140i.html" class="list-group-item list-group-item-action py-2 small"><i class="bi bi-file-earmark-binary-fill me-2 text-muted"></i> Franking Machine &amp; Tax Meter</a>
+            <a href="product-megger-mit410.html" class="list-group-item list-group-item-action py-2 small"><i class="bi bi-activity me-2 text-muted"></i> Insulation Tester</a>
+            <a href="product-testo-625.html" class="list-group-item list-group-item-action py-2 small"><i class="bi bi-thermometer-half me-2 text-muted"></i> Thermo Hygrometer</a>
+            <a href="product-ups.html" class="list-group-item list-group-item-action py-2 small"><i class="bi bi-cpu-fill me-2 text-muted"></i> UPS</a>
+          </div>
+        </div>
+        <a href="about.html" class="list-group-item list-group-item-action py-3"><i class="bi bi-info-circle me-2"></i>
+          About Us</a>
+        <a href="contact.html" class="list-group-item list-group-item-action py-3"><i class="bi bi-envelope me-2"></i>
+          Contact Us</a>
+        <hr class="my-1">
+        <a href="wishlist.html" class="list-group-item list-group-item-action py-3"><i class="bi bi-heart me-2"></i>
+          Wishlist (<span id="wishlist-counter-mobile">1</span>)</a>
+        <a href="cart.html" class="list-group-item list-group-item-action py-3"><i class="bi bi-bag me-2"></i> Shopping
+          Cart (<span id="cart-counter-mobile">2</span>)</a>
+        <a href="my-orders.html" class="list-group-item list-group-item-action py-3"><i class="bi bi-box-seam me-2"></i>
+          My Orders</a>
+        <a href="order-tracking.html" class="list-group-item list-group-item-action py-3"><i
+            class="bi bi-geo-alt me-2"></i> Track Order</a>
+      </div>
+    </div>
+  </div>
+  <div class="inner-page-header no-print">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Order Confirmation</li>
+        </ol>
+      </nav>
+      <h1 class="display-6 fw-bold">Quotation Requested</h1>
+      <p class="lead">Thank you for your business. We will contact you shortly.</p>
+    </div>
+  </div>
+  <main class="container my-5 flex-grow-1 bg-white py-2">
+    <div class="row g-3 mb-4">
+      <div class="col-sm-6">
+        <span class="text-muted small d-block">ORDER REFERENCE:</span>
+        <strong class="text-dark font-monospace text-primary-custom" id="invoice-order-id">SBC-89012</strong>
+      </div>
+      <div class="col-sm-6 text-sm-end">
+        <span class="text-muted small d-block">PAYMENT METHOD:</span>
+        <strong class="text-dark" id="invoice-payment-method">Credit Card</strong>
+        <small class="text-muted d-block" id="invoice-payment-desc">Visa ending in 4242</small>
+      </div>
+    </div>
+    <div class="row g-3 mb-5 border-top border-bottom py-3">
+      <div class="col-sm-6">
+        <h6 class="fw-bold mb-2 font-heading-custom">Shipping Details</h6>
+        <div class="text-muted small">
+          <strong class="d-block text-dark" id="invoice-ship-name">Vivaan Singh</strong>
+          <span class="d-block" id="invoice-ship-street">Nehru Place, Block E</span>
+          <span class="d-block" id="invoice-ship-city">New Delhi</span>
+          <span class="d-block" id="invoice-ship-zip">110019</span>
+          <span class="d-block" id="invoice-ship-phone">+91 98765 43210</span>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <h6 class="fw-bold mb-2 font-heading-custom">Seller Info</h6>
+        <div class="text-muted small">
+          <strong class="d-block text-dark">Shreeji Business Corporation</strong>
+          <span>Authorized Corporate Distributor</span>
+          <span>Nehru Place Logistics Center</span>
+          <span>GST Reg: 07AJRPC7613B1ZG</span>
+          <span>Email: accounts@shreeji.corp</span>
+        </div>
+      </div>
+    </div>
+    <div class="table-responsive mb-4">
+      <table class="table table-borderless border-bottom">
+        <thead>
+          <tr class="border-bottom text-muted small fw-bold">
+            <th scope="col" class="pb-2">Description</th>
+            <th scope="col" class="pb-2 text-center">Qty</th>
+            <th scope="col" class="pb-2 text-end">Price</th>
+            <th scope="col" class="pb-2 text-end">Total</th>
+          </tr>
+        </thead>
+        <tbody id="invoice-items-body" class="small">
+          <tr class="border-bottom">
+            <td class="py-3">
+              <strong class="text-dark">12A Lipi Compatible Toner Cartridge</strong>
+              <small class="text-muted d-block">Size: Standard Pack | Color: Black</small>
+            </td>
+            <td class="py-3 text-center">1</td>
+            <td class="py-3 text-end font-monospace">₹1,800.00</td>
+            <td class="py-3 text-end font-monospace fw-bold">₹1,800.00</td>
+          </tr>
+          <tr class="border-bottom">
+            <td class="py-3">
+              <strong class="text-dark">Microtek Legend 1000 UPS</strong>
+              <small class="text-muted d-block">Size: 1000VA (Stand-alone) | Color: Classic Black</small>
+            </td>
+            <td class="py-3 text-center">1</td>
+            <td class="py-3 text-end font-monospace">₹4,500.00</td>
+            <td class="py-3 text-end font-monospace fw-bold">₹4,500.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="row justify-content-end mb-4">
+      <div class="col-sm-6 col-md-5">
+        <div class="d-flex justify-content-between align-items-center mb-1">
+          <span class="text-muted small">Subtotal</span>
+          <span class="font-monospace text-dark" id="invoice-subtotal">₹6,300.00</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-1 d-none" id="invoice-discount-row">
+          <span class="text-muted small">Coupon Discount</span>
+          <span class="font-monospace text-danger" id="invoice-discount">-₹0.00</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-1">
+          <span class="text-muted small">Tax (18% GST)</span>
+          <span class="font-monospace text-dark" id="invoice-tax">₹1,134.00</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <span class="text-muted small">Shipping</span>
+          <span class="font-monospace text-dark" id="invoice-shipping">FREE</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+          <strong class="text-dark">Grand Total</strong>
+          <strong class="text-primary-custom fs-5 font-monospace" id="invoice-total">₹7,434.00</strong>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-muted small pt-3 border-top fs-0-75-custom">
+      <p class="mb-1">This is a computer-generated invoice and does not require a physical signature.</p>
+      <p class="mb-0">Warranty issues can be registered at support@shreeji.corp with the Order Reference code.</p>
+    </div>
+    </div>
+    <div class="d-flex justify-content-center gap-3 mt-4 no-print">
+      <button class="btn btn-secondary-custom px-4 py-2" onclick="window.print()">
+        <i class="bi bi-printer me-1"></i> Print / Download Invoice
+      </button>
+      <a id="invoice-track-link" href="order-tracking.html" class="btn btn-dark px-4 py-2">
+        <i class="bi bi-geo-alt me-1"></i> Track Order Status
+      </a>
+      <a href="index.html" class="btn btn-primary-custom px-4 py-2">
+        Continue Shopping <i class="bi bi-arrow-right ms-1"></i>
+      </a>
+    </div>
+  </main>
+  <footer class="bg-dark text-white pt-5 pb-3 mt-auto border-top border-light-subtle no-print footer-border-custom">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <div class="col-lg-4">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <div class="bg-white rounded p-1 d-flex align-items-center justify-content-center footer-logo-wrapper">
+              <img src="images/logo.webp" alt="SBC Logo" class="img-fluid max-height-100-custom">
+            </div>
+            <span class="fw-bold h5 mb-0 text-white font-heading-custom">Shreeji Business Corporation</span>
+          </div>
+          <p class="text-muted small mb-3">Authorized supplier of elite industrial equipment, office automation devices,
+            and backup systems.</p>
+          <div class="text-muted small">
+            <p class="mb-1"><i class="bi bi-geo-alt-fill me-2 text-primary-custom"></i>Nehru Place, New Delhi, Delhi,
+              India</p>
+            <p class="mb-1"><i class="bi bi-telephone-fill me-2 text-primary-custom"></i><a href="tel:08047657312"
+                class="text-muted text-decoration-none hover-primary">08047657312</a></p>
+            <p class="mb-0"><i class="bi bi-file-earmark-text-fill me-2 text-primary-custom"></i>GSTIN: 07AJRPC7613B1ZG
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h6 class="fw-bold mb-3 text-white font-heading-custom">Quick Links</h6>
+          <ul class="list-unstyled small">
+            <li class="mb-2"><a href="products.html" class="text-muted text-decoration-none hover-primary">Shop
+                Catalog</a></li>
+            <li class="mb-2"><a href="about.html" class="text-muted text-decoration-none hover-primary">About Us</a>
+            </li>
+            <li class="mb-2"><a href="wishlist.html" class="text-muted text-decoration-none hover-primary">My
+                Wishlist</a></li>
+            <li class="mb-2"><a href="cart.html" class="text-muted text-decoration-none hover-primary">Shopping Cart</a>
+            </li>
+            <li class="mb-2"><a href="my-orders.html" class="text-muted text-decoration-none hover-primary">Order
+                History</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h6 class="fw-bold mb-3 text-white font-heading-custom">Customer Support</h6>
+          <ul class="list-unstyled small">
+            <li class="mb-2"><a href="order-tracking.html" class="text-muted text-decoration-none hover-primary">Track
+                Order</a></li>
+            <li class="mb-2"><a href="return-policy.html" class="text-muted text-decoration-none hover-primary">Return
+                Policy</a></li>
+            <li class="mb-2"><a href="privacy-policy.html" class="text-muted text-decoration-none hover-primary">Privacy
+                Policy</a></li>
+            <li class="mb-2"><a href="contact.html" class="text-muted text-decoration-none hover-primary">Contact
+                support</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h6 class="fw-bold mb-3 text-white font-heading-custom">Stay Updated</h6>
+          <p class="text-muted small mb-3">Subscribe to get notifications about bulk purchase discounts and calibration
+            certificate programs.</p>
+          <form class="input-group" id="newsletter-form">
+            <input type="email" class="form-control bg-transparent border-secondary text-white"
+              placeholder="Enter business email" required>
+            <button class="btn btn-primary-custom" type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+      <div
+        class="pt-3 border-top border-secondary d-flex flex-wrap justify-content-between align-items-center gap-2 footer-border-custom">
+        <span class="text-muted small">&copy; 2026 Shreeji Business Corporation. All Rights Reserved.</span>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-muted"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-muted"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-muted"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-muted"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="modal fade" id="globalQuoteModal" tabindex="-1" aria-labelledby="globalQuoteModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content modal-content-custom">
+        <div class="modal-header bg-primary-custom text-white py-3">
+          <h5 class="modal-title fw-bold modal-title-custom" id="globalQuoteModalLabel"><i
+              class="bi bi-envelope-paper-fill me-2"></i>Send Business Inquiry</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form id="global-quote-form"
+          onsubmit="event.preventDefault(); alert('Inquiry successfully submitted! We will contact you shortly.'); bootstrap.Modal.getInstance(document.getElementById('globalQuoteModal')).hide(); this.reset();">
+          <div class="modal-body p-4">
+            <p class="text-muted small mb-4">Please fill in the details below to receive a customized price quote. Our
+              representative from Nehru Place, Delhi will contact you shortly.</p>
+            <div class="mb-3">
+              <label class="form-label small fw-bold" for="quote-product-name">Inquiry For</label>
+              <input type="text" class="form-control quote-product-input-custom" id="quote-product-name"
+                value="General Inquiry" readonly>
+            </div>
+            <div class="row g-3 mb-3">
+              <div class="col-md-6">
+                <label class="form-label small fw-bold" for="quote-email">Business Email <span
+                    class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="quote-email" required placeholder="name@company.com">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small fw-bold" for="quote-phone">Mobile / Phone <span
+                    class="text-danger">*</span></label>
+                <input type="tel" class="form-control" id="quote-phone" required placeholder="e.g. +91 98765 43210">
+              </div>
+            </div>
+            <div class="row g-3 mb-3">
+              <div class="col-md-6">
+                <label class="form-label small fw-bold" for="quote-qty">Requirement Quantity</label>
+                <input type="number" class="form-control" id="quote-qty" value="1" min="1">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small fw-bold" for="quote-urgency">Urgency</label>
+                <select class="form-select" id="quote-urgency">
+                  <option value="Immediate">Immediate (Within 24 Hours)</option>
+                  <option value="1 Week">Within 1 Week</option>
+                  <option value="General">General Requirement</option>
+                </select>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label small fw-bold" for="quote-message">Requirement Details</label>
+              <textarea class="form-control" id="quote-message" rows="3"
+                placeholder="Describe your exact testing or automation requirements..."></textarea>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="quote-share-gst" checked>
+              <label class="form-check-label small text-muted" for="quote-share-gst">
+                Share my default company info & GSTIN for fast invoicing
+              </label>
+            </div>
+          </div>
+          <div class="modal-footer bg-light-custom border-top-0 py-3">
+            <button type="button" class="btn btn-secondary-custom btn-sm" data-bs-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-primary-custom btn-sm px-4"><i class="bi bi-send me-1"></i>Submit
+              Inquiry</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
